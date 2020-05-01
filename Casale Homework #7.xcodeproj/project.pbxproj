@@ -15,6 +15,9 @@
 		989BDD37244A26F300CFD13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989BDD35244A26F300CFD13B /* LaunchScreen.storyboard */; };
 		989BDD42244A26F400CFD13B /* Casale_Homework__7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BDD41244A26F400CFD13B /* Casale_Homework__7Tests.swift */; };
 		989BDD4D244A26F400CFD13B /* Casale_Homework__7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BDD4C244A26F400CFD13B /* Casale_Homework__7UITests.swift */; };
+		98F2B7D6245A1DF9007F6E6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F2B7D5245A1DF9007F6E6A /* WebKit.framework */; };
+		98F2B7DA245A36B6007F6E6A /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2B7D9245A36B6007F6E6A /* ViewController1.swift */; };
+		98F2B7DC245A3757007F6E6A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2B7DB245A3757007F6E6A /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		989BDD48244A26F400CFD13B /* Casale Homework #7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casale Homework #7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989BDD4C244A26F400CFD13B /* Casale_Homework__7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casale_Homework__7UITests.swift; sourceTree = "<group>"; };
 		989BDD4E244A26F400CFD13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F2B7D5245A1DF9007F6E6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		98F2B7D9245A36B6007F6E6A /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		98F2B7DB245A3757007F6E6A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F2B7D6245A1DF9007F6E6A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +86,12 @@
 		989BDD1E244A26F200CFD13B = {
 			isa = PBXGroup;
 			children = (
+				98F2B7D9245A36B6007F6E6A /* ViewController1.swift */,
 				989BDD29244A26F200CFD13B /* Casale Homework #7 */,
 				989BDD40244A26F400CFD13B /* Casale Homework #7Tests */,
 				989BDD4B244A26F400CFD13B /* Casale Homework #7UITests */,
 				989BDD28244A26F200CFD13B /* Products */,
+				98F2B7D4245A1DF9007F6E6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +112,7 @@
 				989BDD2C244A26F200CFD13B /* SceneDelegate.swift */,
 				989BDD2E244A26F200CFD13B /* ViewController.swift */,
 				989BDD30244A26F200CFD13B /* Main.storyboard */,
+				98F2B7DB245A3757007F6E6A /* ViewController2.swift */,
 				989BDD33244A26F300CFD13B /* Assets.xcassets */,
 				989BDD35244A26F300CFD13B /* LaunchScreen.storyboard */,
 				989BDD38244A26F300CFD13B /* Info.plist */,
@@ -126,6 +136,14 @@
 				989BDD4E244A26F400CFD13B /* Info.plist */,
 			);
 			path = "Casale Homework #7UITests";
+			sourceTree = "<group>";
+		};
+		98F2B7D4245A1DF9007F6E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F2B7D5245A1DF9007F6E6A /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F2B7DC245A3757007F6E6A /* ViewController2.swift in Sources */,
+				98F2B7DA245A36B6007F6E6A /* ViewController1.swift in Sources */,
 				989BDD2F244A26F200CFD13B /* ViewController.swift in Sources */,
 				989BDD2B244A26F200CFD13B /* AppDelegate.swift in Sources */,
 				989BDD2D244A26F200CFD13B /* SceneDelegate.swift in Sources */,
